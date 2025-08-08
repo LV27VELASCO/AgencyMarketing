@@ -1,9 +1,9 @@
-<h1>AgenceX Landing page</h1>
+<h1>WeeklySocial Landing page</h1>
 
 A simple landing page for a digital agency
 
-![AgenceX light Theme](./screens/demoLight.webp)
-![AgenceX Dark Theme](./screens/demoDark.webp)
+![WeeklySocial light Theme](./screens/demoLight.webp)
+![WeeklySocial Dark Theme](./screens/demoDark.webp)
 
 
 ## Tools
