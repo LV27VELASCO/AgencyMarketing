@@ -6,11 +6,12 @@ import node from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
   // @ts-ignore
-  adapter: node({
-    // @ts-ignore
-    mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
-  }),
-  output:'server',
+  adapter: node(),
+  server: {
+      allowedHosts: [
+        '.weeklysocial.es'
+      ]
+    },
   vite: {
     plugins: [tailwindcss()],
   },
