@@ -1,0 +1,17 @@
+---
+import "../styles/global.css"
+import Layout from "../layouts/Layout.astro";
+import HeroContentMarketing from "../components/sections/Marketing_Contenidos/Hero-content-marketing.astro";
+import ServicesContentMarketing from "../components/sections/Marketing_Contenidos/Services-content-marketing.astro";
+import ProcessContentMarketing from "../components/sections/Marketing_Contenidos/Process-content-marketing.astro";
+import BenefitsContentMarketing from "../components/sections/Marketing_Contenidos/Benefits-content-marketing.astro";
+---
+
+<Layout title="Bienvenido">
+	<main class="flex flex-col gap-y-14 md:gap-y-32 overflow-hidden">
+		<HeroContentMarketing/>
+        <BenefitsContentMarketing/>
+		<ServicesContentMarketing/>
+		<ProcessContentMarketing/>
+	</main>
+</Layout>

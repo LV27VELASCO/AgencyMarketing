@@ -1,0 +1,88 @@
+---
+import Container from "../../shared/Container.astro";
+import Paragraph from "../../shared/Paragraph.astro";
+import Subtitle from "../../shared/Subtitle.astro";
+---
+
+<section class="px-10 sm:px-20">
+    <Container className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <Subtitle className="text-3xl text-dark mb-6">
+                ¿Qué es el Posicionamiento SEO?
+            </Subtitle>
+            <Paragraph className="text-xl text-gray-600 max-w-3xl mx-auto">
+                El SEO (Search Engine Optimization) es el conjunto de técnicas que optimizan tu sitio web para aparecer en los primeros resultados de Google cuando tus clientes potenciales buscan tus productos o servicios.
+            </Paragraph>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div class="flex flex-col sm:flex-row gap-2 items-start space-x-4 sm:space-x-6">
+                <div class="flex-shrink-0">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 bg-primary text-white rounded-xl flex items-center justify-center">
+                        <svg class="w-6 h-6 sm:w-8 sm:h-8" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <Subtitle className="text-xl sm:text-2xl text-dark mb-2 sm:mb-4">
+                        Visibilidad
+                    </Subtitle>
+                    <Paragraph
+                        className="text-gray-600 text-base sm:text-lg leading-relaxed">
+                        Aparece en los primeros resultados cuando tus clientes buscan tus servicios
+                    </Paragraph>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-2 items-start space-x-4 sm:space-x-6">
+                <div class="flex-shrink-0">
+                    <div
+                        class="w-12 h-12 sm:w-14 sm:h-14 bg-yellow-400 text-white rounded-xl flex items-center justify-center">
+                        <svg
+                            class="w-6 h-6 sm:w-8 sm:h-8"
+                            fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <Subtitle
+                        className="text-xl sm:text-2xl text-dark mb-2 sm:mb-4">
+                        Credibilidad</Subtitle>
+                    <Paragraph
+                        className="text-gray-600 text-base sm:text-lg leading-relaxed">
+                        Los usuarios confían más en los resultados orgánicos de Google
+                    </Paragraph>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-2 items-start space-x-4 sm:space-x-6">
+                <div class="flex-shrink-0">
+                    <div
+                        class="w-12 h-12 sm:w-14 sm:h-14 bg-green-400 text-white rounded-xl flex items-center justify-center">
+                        <svg
+                            class="w-6 h-6 sm:w-8 sm:h-8"
+                            fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <Subtitle
+                        className="text-xl sm:text-2xl text-dark mb-2 sm:mb-4">ROI a Largo Plazo</Subtitle>
+                    <Paragraph
+                        className="text-gray-600 text-base sm:text-lg leading-relaxed">
+                        Inversión que genera resultados sostenibles en el tiempo
+                    </Paragraph>
+                </div>
+            </div>
+        </div>
+    </Container>
+</section>

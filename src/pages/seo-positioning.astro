@@ -1,0 +1,17 @@
+---
+import BenefitsSeoPositioning from "../components/sections/Posicionamiento_Seo/Benefits-seo-positioning.astro";
+import HeroSeoPositioning from "../components/sections/Posicionamiento_Seo/Hero-seo-positioning.astro";
+import ProcessSeoPositioning from "../components/sections/Posicionamiento_Seo/Process-seo-positioning.astro";
+import ServicesSeoPositioning from "../components/sections/Posicionamiento_Seo/Services-seo-positioning.astro";
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css"
+---
+
+<Layout title="Bienvenido">
+	<main class="flex flex-col gap-y-14 md:gap-y-32 overflow-hidden">
+		<HeroSeoPositioning/>
+        <BenefitsSeoPositioning/>
+		<ServicesSeoPositioning/>
+		<ProcessSeoPositioning/>
+	</main>
+</Layout>

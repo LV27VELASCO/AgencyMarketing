@@ -1,0 +1,17 @@
+---
+import "../styles/global.css"
+import Layout from "../layouts/Layout.astro";
+import HeroDigitalCreativity from "../components/sections/Creatividad_Digital/Hero-digital-creativity.astro";
+import BenefitsDigitalCreativity from "../components/sections/Creatividad_Digital/Benefits-digital-creativity.astro";
+import ProcessDigitalCreativity from "../components/sections/Creatividad_Digital/Process-digital-creativity.astro";
+import ServicesDigitalCreativity from "../components/sections/Creatividad_Digital/Services-digital-creativity.astro";
+---
+
+<Layout title="Bienvenido">
+	<main class="flex flex-col gap-y-14 md:gap-y-32 overflow-hidden">
+		<HeroDigitalCreativity/>
+        <BenefitsDigitalCreativity/>
+		<ServicesDigitalCreativity/>
+		<ProcessDigitalCreativity/>
+	</main>
+</Layout>

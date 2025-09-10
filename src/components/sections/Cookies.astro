@@ -1,0 +1,253 @@
+---
+import Button from "../shared/Button.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Subtitle from "../shared/Subtitle.astro";
+---
+
+<section  id="privacity" class="relative pt-32 lg:pt-36">
+  <Container>
+    <div class="w-full relative py-8 md:py-10 px-6 md:px-8 rounded-2xl bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 dark:to-transparent">
+      <div class="absolute right-0 top-0 h-full w-full flex justify-end">
+        <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+            <span
+              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+            ></span>
+          </div>
+      </div>
+
+      <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
+        <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+            <span
+              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+            ></span>
+          </div>
+      </div>
+      
+       <section id="contacto" class="pt-20 pb-10 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Subtitle className="text-3xl font-bold text-gray-900 mb-2">Política de Cookies</Subtitle>
+            <Paragraph className="text-gray-600 mb-8">Última actualización: Enero 2024</Paragraph>
+
+            <!-- Introducción -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">¿Qué son las cookies?</Subtitle>
+                <Paragraph className="text-gray-700 leading-relaxed mb-4">
+                    Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita nuestro sitio web. 
+                    Nos ayudan a mejorar su experiencia de navegación, recordar sus preferencias y analizar cómo utiliza nuestros servicios.
+                </Paragraph>
+                <Paragraph className="text-gray-700 leading-relaxed">
+                    En Marketing Digital Pro utilizamos cookies para optimizar nuestros servicios y ofrecerle contenido personalizado 
+                    relacionado con nuestros servicios de marketing digital y crecimiento en redes sociales.
+                </Paragraph>
+            </section>
+
+            <!-- Tipos de cookies -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Tipos de cookies que utilizamos</Subtitle>
+                
+                <div class="space-y-6">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <Subtitle className="text-lg font-semibold text-gray-900 mb-2">Cookies técnicas (necesarias)</Subtitle>
+                        <Paragraph className="text-gray-700 mb-2">
+                            Son esenciales para el funcionamiento del sitio web. Sin estas cookies, el sitio no puede funcionar correctamente.
+                        </Paragraph>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li><Paragraph className="inline">Cookies de sesión para mantener su navegación</Paragraph></li>
+                            <li><Paragraph className="inline">Cookies de seguridad para proteger contra ataques</Paragraph></li>
+                            <li><Paragraph className="inline">Cookies de configuración de idioma y región</Paragraph></li>
+                        </ul>
+                    </div>
+
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <Subtitle className="text-lg font-semibold text-gray-900 mb-2">Cookies analíticas</Subtitle>
+                        <Paragraph className="text-gray-700 mb-2">
+                            Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web.
+                        </Paragraph>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li><Paragraph className="inline">Google Analytics para análisis de tráfico</Paragraph></li>
+                            <li><Paragraph className="inline">Cookies de rendimiento del sitio web</Paragraph></li>
+                            <li><Paragraph className="inline">Métricas de conversión y comportamiento</Paragraph></li>
+                        </ul>
+                    </div>
+
+                    <div class="border-l-4 border-purple-500 pl-4">
+                        <Subtitle className="text-lg font-semibold text-gray-900 mb-2">Cookies de terceros</Subtitle>
+                        <Paragraph className="text-gray-700 mb-2">
+                            Cookies establecidas por servicios de terceros que utilizamos en nuestro sitio.
+                        </Paragraph>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li><Paragraph className="inline">Redes sociales (Facebook, Instagram, LinkedIn)</Paragraph></li>
+                            <li><Paragraph className="inline">Herramientas de chat en vivo</Paragraph></li>
+                            <li><Paragraph className="inline">Servicios de mapas y localización</Paragraph></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tabla detallada de cookies -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Cookies específicas que utilizamos</Subtitle>
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse border border-gray-300">
+                        <thead>
+                            <tr class="bg-gray-50">
+                                <th class="border border-gray-300 px-4 py-2 text-left font-semibold">Cookie</th>
+                                <th class="border border-gray-300 px-4 py-2 text-left font-semibold">Propósito</th>
+                                <th class="border border-gray-300 px-4 py-2 text-left font-semibold">Duración</th>
+                                <th class="border border-gray-300 px-4 py-2 text-left font-semibold">Tipo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-gray-200">
+                                <td class="border border-gray-300 px-4 py-2 font-mono text-sm">_ga</td>
+                                <td class="border border-gray-300 px-4 py-2">Distingue usuarios únicos</td>
+                                <td class="border border-gray-300 px-4 py-2">2 años</td>
+                                <td class="border border-gray-300 px-4 py-2">Analítica</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2 font-mono text-sm">_gid</td>
+                                <td class="border border-gray-300 px-4 py-2">Distingue usuarios únicos</td>
+                                <td class="border border-gray-300 px-4 py-2">24 horas</td>
+                                <td class="border border-gray-300 px-4 py-2">Analítica</td>
+                            </tr>
+                            <tr class="bg-gray-200">
+                                <td class="border border-gray-300 px-4 py-2 font-mono text-sm">_fbp</td>
+                                <td class="border border-gray-300 px-4 py-2">Facebook Pixel para conversiones</td>
+                                <td class="border border-gray-300 px-4 py-2">3 meses</td>
+                                <td class="border border-gray-300 px-4 py-2">Marketing</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-2 font-mono text-sm">_gads</td>
+                                <td class="border border-gray-300 px-4 py-2">Google Ads conversiones</td>
+                                <td class="border border-gray-300 px-4 py-2">2 años</td>
+                                <td class="border border-gray-300 px-4 py-2">Marketing</td>
+                            </tr>
+                            <tr class="bg-gray-200">
+                                <td class="border border-gray-300 px-4 py-2 font-mono text-sm">session_id</td>
+                                <td class="border border-gray-300 px-4 py-2">Mantiene la sesión del usuario</td>
+                                <td class="border border-gray-300 px-4 py-2">Sesión</td>
+                                <td class="border border-gray-300 px-4 py-2">Técnica</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Gestión de cookies -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Cómo gestionar las cookies</Subtitle>
+
+                <Subtitle className="text-lg font-semibold text-gray-900 mb-3">Configuración del navegador</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    También puede controlar las cookies directamente desde su navegador:
+                </Paragraph>
+                <ul class="list-disc list-inside text-gray-600 space-y-2 mb-6">
+                    <li><Paragraph className="inline"><strong>Chrome:</strong> Configuración > Privacidad y seguridad > Cookies y otros datos de sitios</Paragraph></li>
+                    <li><Paragraph className="inline"><strong>Firefox:</strong> Opciones > Privacidad y seguridad > Cookies y datos del sitio</Paragraph></li>
+                    <li><Paragraph className="inline"><strong>Safari:</strong> Preferencias > Privacidad > Gestionar datos de sitios web</Paragraph></li>
+                    <li><Paragraph className="inline"><strong>Edge:</strong> Configuración > Cookies y permisos del sitio</Paragraph></li>
+                </ul>
+
+                <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                    <Paragraph className="text-yellow-800">
+                        <strong>Importante:</strong> Desactivar ciertas cookies puede afectar la funcionalidad del sitio web 
+                        y su experiencia de usuario.
+                    </Paragraph>
+                </div>
+            </section>
+
+            <!-- Cookies de terceros -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Servicios de terceros</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    Utilizamos servicios de terceros que pueden establecer sus propias cookies:
+                </Paragraph>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <Subtitle className="font-semibold text-gray-900 mb-2">Google Analytics</Subtitle>
+                        <Paragraph className="text-gray-600 text-sm mb-2">Análisis de tráfico web</Paragraph>
+                        <a href="https://policies.google.com/privacy" class="text-blue-600 hover:underline text-sm">
+                            Política de privacidad →
+                        </a>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <Subtitle className="font-semibold text-gray-900 mb-2">Facebook Pixel</Subtitle>
+                        <Paragraph className="text-gray-600 text-sm mb-2">Seguimiento de conversiones</Paragraph>
+                        <a href="https://www.facebook.com/privacy/policy/" class="text-blue-600 hover:underline text-sm">
+                            Política de privacidad →
+                        </a>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <Subtitle className="font-semibold text-gray-900 mb-2">Google Ads</Subtitle>
+                        <Paragraph className="text-gray-600 text-sm mb-2">Publicidad personalizada</Paragraph>
+                        <a href="https://policies.google.com/privacy" class="text-blue-600 hover:underline text-sm">
+                            Política de privacidad →
+                        </a>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <Subtitle className="font-semibold text-gray-900 mb-2">LinkedIn Insight</Subtitle>
+                        <Paragraph className="text-gray-600 text-sm mb-2">Marketing B2B</Paragraph>
+                        <a href="https://www.linkedin.com/legal/privacy-policy" class="text-blue-600 hover:underline text-sm">
+                            Política de privacidad →
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Derechos del usuario -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Sus derechos</Subtitle>
+                <div class="bg-gray-50/50 rounded-lg p-6">
+                    <Paragraph className="text-gray-50 mb-4">Como usuario, tiene derecho a:</Paragraph>
+                    <ul class="list-disc list-inside text-gray-100 space-y-2">
+                        <li><Paragraph className="inline">Ser informado sobre el uso de cookies</Paragraph></li>
+                        <li><Paragraph className="inline">Dar o retirar su consentimiento</Paragraph></li>
+                        <li><Paragraph className="inline">Acceder a la información sobre las cookies utilizadas</Paragraph></li>
+                        <li><Paragraph className="inline">Configurar sus preferencias de cookies</Paragraph></li>
+                        <li><Paragraph className="inline">Solicitar la eliminación de cookies no esenciales</Paragraph></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Actualizaciones -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Actualizaciones de esta política</Subtitle>
+                <Paragraph className="text-gray-700 leading-relaxed">
+                    Podemos actualizar esta Política de Cookies ocasionalmente para reflejar cambios en nuestras prácticas 
+                    o por razones legales. Le notificaremos sobre cambios significativos a través de nuestro sitio web 
+                    o por correo electrónico si es necesario.
+                </Paragraph>
+            </section>
+
+            <!-- Contacto -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">Contacto</Subtitle>
+                <div class="bg-blue-500/20 border border-blue-200 rounded-lg p-6">
+                    <Paragraph className="text-blue-800 mb-4">
+                        Si tiene preguntas sobre nuestra Política de Cookies, puede contactarnos:
+                    </Paragraph>
+                    <div class="space-y-2 text-blue-700">
+                        <Paragraph className="inline"><strong>Email:</strong> soporte@weeklysocial.es</Paragraph>
+                        <Paragraph className="inline"><strong>Teléfono:</strong> 913076630</Paragraph>
+                        <Paragraph className="inline"><strong>Dirección:</strong> PASEO HABANA. 9. 28036, MADRID, MADRID</Paragraph>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </section>
+    </div>
+  </Container>
+</section>

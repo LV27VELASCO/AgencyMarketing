@@ -1,0 +1,17 @@
+---
+import "../styles/global.css"
+import Layout from "../layouts/Layout.astro";
+import HeroDigitalAnalytics from "../components/sections/Analitica_Digital/Hero-digital-analytics.astro";
+import ProcessDigitalAnalytics from "../components/sections/Analitica_Digital/Process-digital-analytics.astro";
+import ServicesDigitalAnalytics from "../components/sections/Analitica_Digital/Services-digital-analytics.astro";
+import BenefitsDigitalAnalytics from "../components/sections/Analitica_Digital/Benefits-digital-analytics.astro";
+---
+
+<Layout title="Bienvenido">
+	<main class="flex flex-col gap-y-14 md:gap-y-32 overflow-hidden">
+		<HeroDigitalAnalytics/>
+		<BenefitsDigitalAnalytics/>
+        <ServicesDigitalAnalytics/>
+		<ProcessDigitalAnalytics/>
+	</main>
+</Layout>

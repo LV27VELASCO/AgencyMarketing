@@ -1,0 +1,36 @@
+---
+import { seo_services } from "../../../utils/data";
+import ServicePages from "../../cards/Service-pages.astro";
+import Service_pages from "../../cards/Service-pages.astro";
+import Container from "../../shared/Container.astro";
+import Paragraph from "../../shared/Paragraph.astro";
+type ServicesProps = {
+    title: string;
+    description: string;
+    icon: string;
+    steps:string[]
+};
+---
+
+<section id="services">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <h2 class="text-heading-1 font-semibold text-2xl sm:text-3xl md:text-4xl">
+                Nuestros Servicios SEO
+            </h2>
+            <Paragraph>
+                Ofrecemos una gama completa de servicios SEO para posicionar tu negocio en los primeros resultados de Google
+            </Paragraph>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {
+                    seo_services.map((service: ServicesProps) => {
+                    return (
+                            <ServicePages title={service.title} description={service.description} icon={service.icon}, steps={service.steps}>
+                            </ServicePages>
+                            );
+                    })
+            }
+        </div>
+    </Container>
+</section>

@@ -1,0 +1,309 @@
+---
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Subtitle from "../shared/Subtitle.astro";
+---
+
+<section  id="privacity" class="relative pt-32 lg:pt-36">
+  <Container>
+    <div class="w-full relative py-8 md:py-10 px-6 md:px-8 rounded-2xl bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 dark:to-transparent">
+      <div class="absolute right-0 top-0 h-full w-full flex justify-end">
+        <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+            <span
+              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+            ></span>
+          </div>
+      </div>
+
+      <div class="absolute left-0 bottom-0 h-full w-full flex items-end">
+        <div class="w-28 h-28 overflow-auto flex rounded-xl relative blur-2xl">
+            <span
+              class="absolute w-16 h-16 -top-1 -right-1 bg-green-500 rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
+            ></span>
+            <span
+              class="absolute w-16 h-16 -bottom-1 -left-1 bg-primary rounded-md rotate-45"
+            ></span>
+          </div>
+      </div>
+      
+       <section id="contacto" class="pt-20 pb-10 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Subtitle className="text-3xl font-bold text-dark mb-2">Política de Privacidad</Subtitle>
+            <Paragraph className="text-gray-600 mb-8">Última actualización: Enero 2025</Paragraph>
+
+            <!-- Introducción -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">1. Introducción</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    En Juan Ignacio Vitola Vianchi, propietario de WeeklySocial.es nos comprometemos a proteger y respetar su privacidad. Esta Política de Privacidad 
+                    explica cómo recopilamos, utilizamos, almacenamos y protegemos su información personal cuando utiliza nuestros 
+                    servicios de marketing digital y crecimiento en redes sociales.
+                </Paragraph>
+                <Paragraph className="text-gray-700">
+                    Esta política cumple con el Reglamento General de Protección de Datos (GDPR) y la Ley Orgánica de Protección 
+                    de Datos Personales y garantía de los derechos digitales (LOPDGDD).
+                </Paragraph>
+            </section>
+
+            <!-- Responsable del tratamiento -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">2. Responsable del Tratamiento</Subtitle>
+                <div class="bg-gray-50/50 p-4 rounded-lg">
+                    <Paragraph className="text-gray-700 mb-2"><strong>Razón Social:</strong> WeeklySocial</Paragraph>
+                    <Paragraph className="text-gray-700 mb-2"><strong>CIF:</strong> B84132802</Paragraph>
+                    <Paragraph className="text-gray-700 mb-2"><strong>Dirección:</strong> PASEO HABANA. 9. 28036, MADRID, MADRID</Paragraph>
+                    <Paragraph className="text-gray-700 mb-2"><strong>Email:</strong> soporte@weeklysocial.es</Paragraph>
+                    <Paragraph className="text-gray-700"><strong>Teléfono:</strong> 913076630</Paragraph>
+                </div>
+            </section>
+
+            <!-- Datos que recopilamos -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">3. Datos que Recopilamos</Subtitle>
+                
+                <Subtitle className="text-xl font-medium text-dark mb-3">3.1 Datos de Identificación</Subtitle>
+                <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                    <li><Paragraph className="inline">Nombre y apellidos</Paragraph></li>
+                    <li><Paragraph className="inline">Dirección de correo electrónico</Paragraph></li>
+                    <li><Paragraph className="inline">Número de teléfono</Paragraph></li>
+                    <li><Paragraph className="inline">Empresa y cargo</Paragraph></li>
+                    <li><Paragraph className="inline">Dirección postal</Paragraph></li>
+                </ul>
+
+                <Subtitle className="text-xl font-medium text-dark mb-3">3.2 Datos de Navegación</Subtitle>
+                <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
+                    <li><Paragraph className="inline">Dirección IP</Paragraph></li>
+                    <li><Paragraph className="inline">Tipo de navegador y dispositivo</Paragraph></li>
+                    <li><Paragraph className="inline">Páginas visitadas y tiempo de permanencia</Paragraph></li>
+                    <li><Paragraph className="inline">Cookies y tecnologías similares</Paragraph></li>
+                </ul>
+
+                <Subtitle className="text-xl font-medium text-dark mb-3">3.3 Datos de Redes Sociales</Subtitle>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li><Paragraph className="inline">Perfiles de redes sociales</Paragraph></li>
+                    <li><Paragraph className="inline">Métricas de engagement y alcance</Paragraph></li>
+                    <li><Paragraph className="inline">Contenido publicado (con autorización)</Paragraph></li>
+                    <li><Paragraph className="inline">Datos demográficos de audiencia</Paragraph></li>
+                </ul>
+            </section>
+
+            <!-- Finalidades del tratamiento -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">4. Finalidades del Tratamiento</Subtitle>
+                
+                <div class="space-y-4">
+                    <div class="border-l-4 border-primary pl-4">
+                        <Subtitle className="font-medium text-dark mb-2">Prestación de Servicios</Subtitle>
+                        <Paragraph className="text-gray-700">Gestión y ejecución de campañas de marketing digital, análisis de redes sociales y estrategias de crecimiento.</Paragraph>
+                    </div>
+                    
+                    <div class="border-l-4 border-yellow-400 pl-4">
+                        <Subtitle className="font-medium text-dark mb-2">Comunicación Comercial</Subtitle>
+                        <Paragraph className="text-gray-700">Envío de newsletters, ofertas personalizadas y comunicaciones sobre nuestros servicios.</Paragraph>
+                    </div>
+                    
+                    <div class="border-l-4 border-green-400 pl-4">
+                        <Subtitle className="font-medium text-dark mb-2">Análisis y Mejora</Subtitle>
+                        <Paragraph className="text-gray-700">Análisis de uso de nuestros servicios para mejorar la experiencia del usuario y optimizar resultados.</Paragraph>
+                    </div>
+                    
+                    <div class="border-l-4 border-gray-400 pl-4">
+                        <Subtitle className="font-medium text-dark mb-2">Cumplimiento Legal</Subtitle>
+                        <Paragraph className="text-gray-700">Cumplimiento de obligaciones legales, fiscales y contables.</Paragraph>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Base legal -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">5. Base Legal del Tratamiento</Subtitle>
+                <div class="bg-blue-50/50 p-4 rounded-lg">
+                    <ul class="text-gray-700 space-y-2">
+                        <li><Paragraph className="text-gray-700 mb-4"><strong>Consentimiento:</strong> Para comunicaciones comerciales y cookies no esenciales</Paragraph></li>
+                        <li><Paragraph className="text-gray-700 mb-4"><strong>Ejecución contractual:</strong> Para la prestación de servicios contratados</Paragraph></li>
+                        <li><Paragraph className="text-gray-700 mb-4"><strong>Interés legítimo:</strong> Para análisis de datos y mejora de servicios</Paragraph></li>
+                        <li><Paragraph className="text-gray-700 mb-4"><strong>Obligación legal:</strong> Para cumplimiento de normativas fiscales y contables</Paragraph></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Conservación de datos -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">6. Conservación de Datos</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    Conservamos sus datos personales durante el tiempo necesario para cumplir con las finalidades para las que fueron recopilados:
+                </Paragraph>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li><Paragraph className="text-gray-700 mb-4 inline"><strong>Datos de clientes:</strong> Durante la relación contractual y 6 años adicionales</Paragraph></li>
+                    <li><Paragraph className="text-gray-700 mb-4 inline"><strong>Datos de prospección:</strong> Hasta que retire el consentimiento o 3 años de inactividad</Paragraph></li>
+                    <li><Paragraph className="text-gray-700 mb-4 inline"><strong>Datos de navegación:</strong> Máximo 2 años desde la última visita</Paragraph></li>
+                    <li><Paragraph className="text-gray-700 mb-4 inline"><strong>Datos fiscales:</strong> 4 años según normativa fiscal</Paragraph></li>
+                </ul>
+            </section>
+
+            <!-- Derechos del usuario -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">7. Sus Derechos</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">Usted tiene derecho a:</Paragraph>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Acceso</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Conocer qué datos tenemos sobre usted</Paragraph>
+                    </div>
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Rectificación</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Corregir datos inexactos o incompletos</Paragraph>
+                    </div>
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Supresión</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Solicitar la eliminación de sus datos</Paragraph>
+                    </div>
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Limitación</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Restringir el tratamiento de sus datos</Paragraph>
+                    </div>
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Portabilidad</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Recibir sus datos en formato estructurado</Paragraph>
+                    </div>
+                    <div class="bg-gray-50/50 p-4 rounded-lg">
+                        <Subtitle className="font-medium text-dark mb-2">Oposición</Subtitle>
+                        <Paragraph className="text-gray-700 text-sm">Oponerse al tratamiento de sus datos</Paragraph>
+                    </div>
+                </div>
+
+                <div class="mt-4 p-4 bg-primary/10 rounded-lg">
+                    <Paragraph className="text-gray-700">
+                        <strong>Para ejercer sus derechos:</strong> Envíe un email a 
+                        <a href="mailto:soporte@weeklysocial.es" class="text-primary hover:underline">soporte@weeklysocial.es</a>
+                        adjuntando copia de su DNI o documento identificativo.
+                    </Paragraph>
+                </div>
+            </section>
+
+            <!-- Cookies -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">8. Cookies</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    Utilizamos cookies y tecnologías similares para mejorar su experiencia de navegación:
+                </Paragraph>
+                
+                <div class="space-y-3">
+                    <div class="flex items-start space-x-3">
+                        <div class="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                            <Subtitle className="font-medium text-dark">Cookies Técnicas</Subtitle>
+                            <Paragraph className="text-gray-700 text-sm">Necesarias para el funcionamiento del sitio web</Paragraph>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-3 h-3 bg-yellow-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                            <Subtitle className="font-medium text-dark">Cookies Analíticas</Subtitle>
+                            <Paragraph className="text-gray-700 text-sm">Para analizar el uso del sitio web (Google Analytics)</Paragraph>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                            <Subtitle className="font-medium text-dark">Cookies Publicitarias</Subtitle>
+                            <Paragraph className="text-gray-700 text-sm">Para mostrar publicidad personalizada (Google Ads, Facebook Pixel)</Paragraph>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transferencias internacionales -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">9. Transferencias Internacionales</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    Algunos de nuestros proveedores de servicios pueden estar ubicados fuera del Espacio Económico Europeo:
+                </Paragraph>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li><Paragraph className="inline">Google (Estados Unidos) - Certificado bajo el Marco de Privacidad de Datos UE-EE.UU.</Paragraph></li>
+                    <li><Paragraph className="inline">Meta/Facebook (Estados Unidos) - Cláusulas Contractuales Tipo</Paragraph></li>
+                    <li><Paragraph className="inline">Todas las transferencias cuentan con garantías adecuadas de protección</Paragraph></li>
+                </ul>
+            </section>
+
+            <!-- Seguridad -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">10. Medidas de Seguridad</Subtitle>
+                <Paragraph className="text-gray-700 mb-4">
+                    Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos:
+                </Paragraph>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li><Paragraph className="inline">Cifrado SSL/TLS</Paragraph></li>
+                        <li><Paragraph className="inline">Acceso restringido por roles</Paragraph></li>
+                        <li><Paragraph className="inline">Copias de seguridad regulares</Paragraph></li>
+                    </ul>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li><Paragraph className="inline">Auditorías de seguridad</Paragraph></li>
+                        <li><Paragraph className="inline">Formación del personal</Paragraph></li>
+                        <li><Paragraph className="inline">Protocolos de respuesta a incidentes</Paragraph></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Menores -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">11. Menores de Edad</Subtitle>
+                <div class="bg-red-50 dark:bg-red-500/30 border border-red-200 p-4 rounded-lg">
+                    <Paragraph className="text-gray-700">
+                        Nuestros servicios están dirigidos a empresas y profesionales. No recopilamos intencionalmente 
+                        datos de menores de 16 años. Si detectamos datos de menores, los eliminaremos inmediatamente.
+                    </Paragraph>
+                </div>
+            </section>
+
+            <!-- Cambios en la política -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">12. Cambios en esta Política</Subtitle>
+                <Paragraph className="text-gray-700">
+                    Nos reservamos el derecho a modificar esta Política de Privacidad. Los cambios significativos 
+                    serán comunicados por email o mediante aviso destacado en nuestro sitio web con al menos 30 días de antelación.
+                </Paragraph>
+            </section>
+
+            <!-- Contacto -->
+            <section class="mb-8">
+                <Subtitle className="text-2xl font-semibold text-dark mb-4">13. Contacto</Subtitle>
+                <div class="bg-primary/5 border border-primary/20 p-6 rounded-lg">
+                    <Paragraph className="text-gray-700 mb-4">
+                        Para cualquier consulta sobre esta Política de Privacidad o el tratamiento de sus datos personales:
+                    </Paragraph>
+                    <div class="space-y-2">
+                        <Paragraph className="text-gray-700">
+                            <strong>Email:</strong> 
+                            <a href="mailto:soporte@weeklysocial.es" class="text-primary hover:underline">
+                                soporte@weeklysocial.es
+                            </a>
+                        </Paragraph>
+                        <Paragraph className="text-gray-700"><strong>Teléfono:</strong> 913076630</Paragraph>
+                        <Paragraph className="text-gray-700"><strong>Dirección:</strong> PASEO HABANA. 9. 28036, MADRID, MADRID</Paragraph>
+                    </div>
+                    
+                    <div class="mt-4 pt-4 border-t border-primary/20">
+                        <Paragraph className="text-sm text-gray-600">
+                            También puede presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) 
+                            si considera que el tratamiento de sus datos no cumple con la normativa vigente.
+                        </Paragraph>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </section>
+    </div>
+  </Container>
+</section>
