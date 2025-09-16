@@ -1,9 +1,9 @@
-<h1>WeeklySocial Landing page</h1>
+<h1>WklySocial Landing page</h1>
 
 A simple landing page for a digital agency
 
-![WeeklySocial light Theme](./screens/demoLight.webp)
-![WeeklySocial Dark Theme](./screens/demoDark.webp)
+![WklySocial light Theme](./screens/demoLight.webp)
+![WklySocial Dark Theme](./screens/demoDark.webp)
 
 
 ## Tools
